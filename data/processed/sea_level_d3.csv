@@ -1,0 +1,652 @@
+territory,year,anomaly,year_index,radius
+American Samoa,1993,0,1,1.2
+American Samoa,1994,0,2,1.2
+American Samoa,1995,0,3,1.2
+American Samoa,1996,0.1,4,1.51
+American Samoa,1997,0,5,1.2
+American Samoa,1998,-0.2,6,0.58
+American Samoa,1999,0,7,1.2
+American Samoa,2000,0,8,1.2
+American Samoa,2001,0,9,1.2
+American Samoa,2002,0,10,1.2
+American Samoa,2003,0,11,1.2
+American Samoa,2004,0.1,12,1.51
+American Samoa,2005,0,13,1.2
+American Samoa,2006,0.1,14,1.51
+American Samoa,2007,0.1,15,1.51
+American Samoa,2008,0.1,16,1.51
+American Samoa,2009,0,17,1.2
+American Samoa,2010,0,18,1.2
+American Samoa,2011,0.1,19,1.51
+American Samoa,2012,0,20,1.2
+American Samoa,2013,0,21,1.2
+American Samoa,2014,0,22,1.2
+American Samoa,2015,0.1,23,1.51
+American Samoa,2016,0,24,1.2
+American Samoa,2017,0.1,25,1.51
+American Samoa,2018,0.1,26,1.51
+American Samoa,2019,0.1,27,1.51
+American Samoa,2020,0.1,28,1.51
+American Samoa,2021,0.1,29,1.51
+American Samoa,2022,0.1,30,1.51
+American Samoa,2023,0.1,31,1.51
+Cook Islands,1993,0,1,1.2
+Cook Islands,1994,0,2,1.2
+Cook Islands,1995,0,3,1.2
+Cook Islands,1996,0,4,1.2
+Cook Islands,1997,0,5,1.2
+Cook Islands,1998,-0.1,6,0.8899999999999999
+Cook Islands,1999,0,7,1.2
+Cook Islands,2000,0,8,1.2
+Cook Islands,2001,0,9,1.2
+Cook Islands,2002,0,10,1.2
+Cook Islands,2003,0,11,1.2
+Cook Islands,2004,0,12,1.2
+Cook Islands,2005,0,13,1.2
+Cook Islands,2006,0.1,14,1.51
+Cook Islands,2007,0.1,15,1.51
+Cook Islands,2008,0,16,1.2
+Cook Islands,2009,0,17,1.2
+Cook Islands,2010,0,18,1.2
+Cook Islands,2011,0.1,19,1.51
+Cook Islands,2012,0,20,1.2
+Cook Islands,2013,0,21,1.2
+Cook Islands,2014,0.1,22,1.51
+Cook Islands,2015,0.1,23,1.51
+Cook Islands,2016,0.1,24,1.51
+Cook Islands,2017,0.1,25,1.51
+Cook Islands,2018,0.1,26,1.51
+Cook Islands,2019,0.1,27,1.51
+Cook Islands,2020,0.1,28,1.51
+Cook Islands,2021,0.1,29,1.51
+Cook Islands,2022,0.1,30,1.51
+Cook Islands,2023,0.1,31,1.51
+Fiji,1993,0,1,1.2
+Fiji,1994,0,2,1.2
+Fiji,1995,0,3,1.2
+Fiji,1996,0,4,1.2
+Fiji,1997,0,5,1.2
+Fiji,1998,0,6,1.2
+Fiji,1999,0,7,1.2
+Fiji,2000,0.1,8,1.51
+Fiji,2001,0,9,1.2
+Fiji,2002,0,10,1.2
+Fiji,2003,0,11,1.2
+Fiji,2004,0,12,1.2
+Fiji,2005,0,13,1.2
+Fiji,2006,0,14,1.2
+Fiji,2007,0,15,1.2
+Fiji,2008,0.1,16,1.51
+Fiji,2009,0.1,17,1.51
+Fiji,2010,0,18,1.2
+Fiji,2011,0.1,19,1.51
+Fiji,2012,0.1,20,1.51
+Fiji,2013,0.1,21,1.51
+Fiji,2014,0,22,1.2
+Fiji,2015,0,23,1.2
+Fiji,2016,0,24,1.2
+Fiji,2017,0.1,25,1.51
+Fiji,2018,0.1,26,1.51
+Fiji,2019,0.1,27,1.51
+Fiji,2020,0.1,28,1.51
+Fiji,2021,0.1,29,1.51
+Fiji,2022,0.2,30,1.8199999999999998
+Fiji,2023,0.1,31,1.51
+French Polynesia,1993,0,1,1.2
+French Polynesia,1994,0,2,1.2
+French Polynesia,1995,0,3,1.2
+French Polynesia,1996,0,4,1.2
+French Polynesia,1997,0,5,1.2
+French Polynesia,1998,0,6,1.2
+French Polynesia,1999,0,7,1.2
+French Polynesia,2000,0,8,1.2
+French Polynesia,2001,0,9,1.2
+French Polynesia,2002,0,10,1.2
+French Polynesia,2003,0,11,1.2
+French Polynesia,2004,0,12,1.2
+French Polynesia,2005,0,13,1.2
+French Polynesia,2006,0.1,14,1.51
+French Polynesia,2007,0,15,1.2
+French Polynesia,2008,0,16,1.2
+French Polynesia,2009,0,17,1.2
+French Polynesia,2010,0,18,1.2
+French Polynesia,2011,0,19,1.2
+French Polynesia,2012,0,20,1.2
+French Polynesia,2013,0,21,1.2
+French Polynesia,2014,0.1,22,1.51
+French Polynesia,2015,0.1,23,1.51
+French Polynesia,2016,0.1,24,1.51
+French Polynesia,2017,0.1,25,1.51
+French Polynesia,2018,0.1,26,1.51
+French Polynesia,2019,0.1,27,1.51
+French Polynesia,2020,0.1,28,1.51
+French Polynesia,2021,0.1,29,1.51
+French Polynesia,2022,0.1,30,1.51
+French Polynesia,2023,0.1,31,1.51
+Guam,1993,0,1,1.2
+Guam,1994,0,2,1.2
+Guam,1995,-0.1,3,0.8899999999999999
+Guam,1996,0,4,1.2
+Guam,1997,-0.1,5,0.8899999999999999
+Guam,1998,0,6,1.2
+Guam,1999,0.1,7,1.51
+Guam,2000,0.1,8,1.51
+Guam,2001,0,9,1.2
+Guam,2002,0,10,1.2
+Guam,2003,0,11,1.2
+Guam,2004,0,12,1.2
+Guam,2005,0,13,1.2
+Guam,2006,0.1,14,1.51
+Guam,2007,0.1,15,1.51
+Guam,2008,0.2,16,1.8199999999999998
+Guam,2009,0.1,17,1.51
+Guam,2010,0.1,18,1.51
+Guam,2011,0.1,19,1.51
+Guam,2012,0.1,20,1.51
+Guam,2013,0.1,21,1.51
+Guam,2014,0,22,1.2
+Guam,2015,-0.1,23,0.8899999999999999
+Guam,2016,0,24,1.2
+Guam,2017,0.1,25,1.51
+Guam,2018,0,26,1.2
+Guam,2019,0,27,1.2
+Guam,2020,0.1,28,1.51
+Guam,2021,0.2,29,1.8199999999999998
+Guam,2022,0.1,30,1.51
+Guam,2023,0.1,31,1.51
+Kiribati,1993,0,1,1.2
+Kiribati,1994,0,2,1.2
+Kiribati,1995,0,3,1.2
+Kiribati,1996,0,4,1.2
+Kiribati,1997,0,5,1.2
+Kiribati,1998,-0.1,6,0.8899999999999999
+Kiribati,1999,0,7,1.2
+Kiribati,2000,0,8,1.2
+Kiribati,2001,0,9,1.2
+Kiribati,2002,0.1,10,1.51
+Kiribati,2003,0.1,11,1.51
+Kiribati,2004,0.1,12,1.51
+Kiribati,2005,0.1,13,1.51
+Kiribati,2006,0,14,1.2
+Kiribati,2007,0,15,1.2
+Kiribati,2008,0,16,1.2
+Kiribati,2009,0,17,1.2
+Kiribati,2010,0,18,1.2
+Kiribati,2011,0,19,1.2
+Kiribati,2012,0,20,1.2
+Kiribati,2013,0,21,1.2
+Kiribati,2014,0.1,22,1.51
+Kiribati,2015,0.1,23,1.51
+Kiribati,2016,0.1,24,1.51
+Kiribati,2017,0.1,25,1.51
+Kiribati,2018,0.1,26,1.51
+Kiribati,2019,0.1,27,1.51
+Kiribati,2020,0.1,28,1.51
+Kiribati,2021,0.1,29,1.51
+Kiribati,2022,0.1,30,1.51
+Kiribati,2023,0.1,31,1.51
+Marshall Islands,1993,0,1,1.2
+Marshall Islands,1994,0,2,1.2
+Marshall Islands,1995,0,3,1.2
+Marshall Islands,1996,0,4,1.2
+Marshall Islands,1997,-0.1,5,0.8899999999999999
+Marshall Islands,1998,0,6,1.2
+Marshall Islands,1999,0,7,1.2
+Marshall Islands,2000,0,8,1.2
+Marshall Islands,2001,0,9,1.2
+Marshall Islands,2002,0,10,1.2
+Marshall Islands,2003,0,11,1.2
+Marshall Islands,2004,0,12,1.2
+Marshall Islands,2005,0.1,13,1.51
+Marshall Islands,2006,0,14,1.2
+Marshall Islands,2007,0.1,15,1.51
+Marshall Islands,2008,0.1,16,1.51
+Marshall Islands,2009,0,17,1.2
+Marshall Islands,2010,0.1,18,1.51
+Marshall Islands,2011,0.1,19,1.51
+Marshall Islands,2012,0.1,20,1.51
+Marshall Islands,2013,0.1,21,1.51
+Marshall Islands,2014,0,22,1.2
+Marshall Islands,2015,0,23,1.2
+Marshall Islands,2016,0,24,1.2
+Marshall Islands,2017,0.1,25,1.51
+Marshall Islands,2018,0,26,1.2
+Marshall Islands,2019,0.1,27,1.51
+Marshall Islands,2020,0.1,28,1.51
+Marshall Islands,2021,0.1,29,1.51
+Marshall Islands,2022,0.1,30,1.51
+Marshall Islands,2023,0.1,31,1.51
+"Micronesia, Federated State of",1993,-0.1,1,0.8899999999999999
+"Micronesia, Federated State of",1994,0,2,1.2
+"Micronesia, Federated State of",1995,0,3,1.2
+"Micronesia, Federated State of",1996,0,4,1.2
+"Micronesia, Federated State of",1997,-0.1,5,0.8899999999999999
+"Micronesia, Federated State of",1998,0,6,1.2
+"Micronesia, Federated State of",1999,0.1,7,1.51
+"Micronesia, Federated State of",2000,0.1,8,1.51
+"Micronesia, Federated State of",2001,0.1,9,1.51
+"Micronesia, Federated State of",2002,0,10,1.2
+"Micronesia, Federated State of",2003,0,11,1.2
+"Micronesia, Federated State of",2004,0,12,1.2
+"Micronesia, Federated State of",2005,0,13,1.2
+"Micronesia, Federated State of",2006,0,14,1.2
+"Micronesia, Federated State of",2007,0.1,15,1.51
+"Micronesia, Federated State of",2008,0.1,16,1.51
+"Micronesia, Federated State of",2009,0.1,17,1.51
+"Micronesia, Federated State of",2010,0.1,18,1.51
+"Micronesia, Federated State of",2011,0.1,19,1.51
+"Micronesia, Federated State of",2012,0.1,20,1.51
+"Micronesia, Federated State of",2013,0.1,21,1.51
+"Micronesia, Federated State of",2014,0,22,1.2
+"Micronesia, Federated State of",2015,-0.1,23,0.8899999999999999
+"Micronesia, Federated State of",2016,0.1,24,1.51
+"Micronesia, Federated State of",2017,0.1,25,1.51
+"Micronesia, Federated State of",2018,0.1,26,1.51
+"Micronesia, Federated State of",2019,0.1,27,1.51
+"Micronesia, Federated State of",2020,0.1,28,1.51
+"Micronesia, Federated State of",2021,0.1,29,1.51
+"Micronesia, Federated State of",2022,0.2,30,1.8199999999999998
+"Micronesia, Federated State of",2023,0.1,31,1.51
+Nauru,1993,0,1,1.2
+Nauru,1994,0,2,1.2
+Nauru,1995,0,3,1.2
+Nauru,1996,0,4,1.2
+Nauru,1997,0,5,1.2
+Nauru,1998,-0.1,6,0.8899999999999999
+Nauru,1999,0,7,1.2
+Nauru,2000,0,8,1.2
+Nauru,2001,0,9,1.2
+Nauru,2002,0,10,1.2
+Nauru,2003,0,11,1.2
+Nauru,2004,0.1,12,1.51
+Nauru,2005,0.1,13,1.51
+Nauru,2006,0.1,14,1.51
+Nauru,2007,0,15,1.2
+Nauru,2008,0,16,1.2
+Nauru,2009,0.1,17,1.51
+Nauru,2010,0,18,1.2
+Nauru,2011,0.1,19,1.51
+Nauru,2012,0.1,20,1.51
+Nauru,2013,0.1,21,1.51
+Nauru,2014,0.1,22,1.51
+Nauru,2015,0.1,23,1.51
+Nauru,2016,0,24,1.2
+Nauru,2017,0.1,25,1.51
+Nauru,2018,0.1,26,1.51
+Nauru,2019,0.1,27,1.51
+Nauru,2020,0.1,28,1.51
+Nauru,2021,0.1,29,1.51
+Nauru,2022,0.1,30,1.51
+Nauru,2023,0.1,31,1.51
+New Caledonia,1993,0,1,1.2
+New Caledonia,1994,0,2,1.2
+New Caledonia,1995,0,3,1.2
+New Caledonia,1996,0,4,1.2
+New Caledonia,1997,0,5,1.2
+New Caledonia,1998,0.1,6,1.51
+New Caledonia,1999,0,7,1.2
+New Caledonia,2000,0,8,1.2
+New Caledonia,2001,0,9,1.2
+New Caledonia,2002,0,10,1.2
+New Caledonia,2003,0,11,1.2
+New Caledonia,2004,0,12,1.2
+New Caledonia,2005,0,13,1.2
+New Caledonia,2006,0,14,1.2
+New Caledonia,2007,0,15,1.2
+New Caledonia,2008,0,16,1.2
+New Caledonia,2009,0.1,17,1.51
+New Caledonia,2010,0.1,18,1.51
+New Caledonia,2011,0,19,1.2
+New Caledonia,2012,0.1,20,1.51
+New Caledonia,2013,0.1,21,1.51
+New Caledonia,2014,0.1,22,1.51
+New Caledonia,2015,0.1,23,1.51
+New Caledonia,2016,0.1,24,1.51
+New Caledonia,2017,0.1,25,1.51
+New Caledonia,2018,0.1,26,1.51
+New Caledonia,2019,0.1,27,1.51
+New Caledonia,2020,0.1,28,1.51
+New Caledonia,2021,0.1,29,1.51
+New Caledonia,2022,0.1,30,1.51
+New Caledonia,2023,0.1,31,1.51
+Niue,1993,0,1,1.2
+Niue,1994,0,2,1.2
+Niue,1995,0,3,1.2
+Niue,1996,0,4,1.2
+Niue,1997,0,5,1.2
+Niue,1998,0,6,1.2
+Niue,1999,0,7,1.2
+Niue,2000,0,8,1.2
+Niue,2001,0,9,1.2
+Niue,2002,0,10,1.2
+Niue,2003,0,11,1.2
+Niue,2004,0,12,1.2
+Niue,2005,0,13,1.2
+Niue,2006,0.1,14,1.51
+Niue,2007,0.1,15,1.51
+Niue,2008,0.1,16,1.51
+Niue,2009,0.1,17,1.51
+Niue,2010,0,18,1.2
+Niue,2011,0.1,19,1.51
+Niue,2012,0.1,20,1.51
+Niue,2013,0.1,21,1.51
+Niue,2014,0.1,22,1.51
+Niue,2015,0,23,1.2
+Niue,2016,0.1,24,1.51
+Niue,2017,0.1,25,1.51
+Niue,2018,0.1,26,1.51
+Niue,2019,0.1,27,1.51
+Niue,2020,0.1,28,1.51
+Niue,2021,0.1,29,1.51
+Niue,2022,0.2,30,1.8199999999999998
+Niue,2023,0.1,31,1.51
+Northern Mariana Islands,1993,0,1,1.2
+Northern Mariana Islands,1994,0,2,1.2
+Northern Mariana Islands,1995,0,3,1.2
+Northern Mariana Islands,1996,0,4,1.2
+Northern Mariana Islands,1997,0,5,1.2
+Northern Mariana Islands,1998,0,6,1.2
+Northern Mariana Islands,1999,0,7,1.2
+Northern Mariana Islands,2000,0,8,1.2
+Northern Mariana Islands,2001,0,9,1.2
+Northern Mariana Islands,2002,0,10,1.2
+Northern Mariana Islands,2003,0,11,1.2
+Northern Mariana Islands,2004,0,12,1.2
+Northern Mariana Islands,2005,0.1,13,1.51
+Northern Mariana Islands,2006,0,14,1.2
+Northern Mariana Islands,2007,0.1,15,1.51
+Northern Mariana Islands,2008,0.1,16,1.51
+Northern Mariana Islands,2009,0,17,1.2
+Northern Mariana Islands,2010,0,18,1.2
+Northern Mariana Islands,2011,0,19,1.2
+Northern Mariana Islands,2012,0,20,1.2
+Northern Mariana Islands,2013,0.1,21,1.51
+Northern Mariana Islands,2014,0,22,1.2
+Northern Mariana Islands,2015,0,23,1.2
+Northern Mariana Islands,2016,0,24,1.2
+Northern Mariana Islands,2017,0.1,25,1.51
+Northern Mariana Islands,2018,0.1,26,1.51
+Northern Mariana Islands,2019,0.1,27,1.51
+Northern Mariana Islands,2020,0.1,28,1.51
+Northern Mariana Islands,2021,0.1,29,1.51
+Northern Mariana Islands,2022,0.1,30,1.51
+Northern Mariana Islands,2023,0.1,31,1.51
+Palau,1993,-0.1,1,0.8899999999999999
+Palau,1994,-0.1,2,0.8899999999999999
+Palau,1995,0,3,1.2
+Palau,1996,0,4,1.2
+Palau,1997,-0.1,5,0.8899999999999999
+Palau,1998,0,6,1.2
+Palau,1999,0.1,7,1.51
+Palau,2000,0.1,8,1.51
+Palau,2001,0.1,9,1.51
+Palau,2002,-0.1,10,0.8899999999999999
+Palau,2003,0,11,1.2
+Palau,2004,0,12,1.2
+Palau,2005,0,13,1.2
+Palau,2006,0,14,1.2
+Palau,2007,0,15,1.2
+Palau,2008,0.2,16,1.8199999999999998
+Palau,2009,0.1,17,1.51
+Palau,2010,0.1,18,1.51
+Palau,2011,0.1,19,1.51
+Palau,2012,0.1,20,1.51
+Palau,2013,0.1,21,1.51
+Palau,2014,0,22,1.2
+Palau,2015,-0.1,23,0.8899999999999999
+Palau,2016,0,24,1.2
+Palau,2017,0.1,25,1.51
+Palau,2018,0,26,1.2
+Palau,2019,0,27,1.2
+Palau,2020,0.1,28,1.51
+Palau,2021,0.2,29,1.8199999999999998
+Palau,2022,0.2,30,1.8199999999999998
+Palau,2023,0.1,31,1.51
+Papua New Guinea,1993,-0.1,1,0.8899999999999999
+Papua New Guinea,1994,0,2,1.2
+Papua New Guinea,1995,0,3,1.2
+Papua New Guinea,1996,0,4,1.2
+Papua New Guinea,1997,0,5,1.2
+Papua New Guinea,1998,-0.1,6,0.8899999999999999
+Papua New Guinea,1999,0,7,1.2
+Papua New Guinea,2000,0.1,8,1.51
+Papua New Guinea,2001,0,9,1.2
+Papua New Guinea,2002,0,10,1.2
+Papua New Guinea,2003,0,11,1.2
+Papua New Guinea,2004,0,12,1.2
+Papua New Guinea,2005,0,13,1.2
+Papua New Guinea,2006,0,14,1.2
+Papua New Guinea,2007,0,15,1.2
+Papua New Guinea,2008,0.1,16,1.51
+Papua New Guinea,2009,0.1,17,1.51
+Papua New Guinea,2010,0,18,1.2
+Papua New Guinea,2011,0.1,19,1.51
+Papua New Guinea,2012,0.1,20,1.51
+Papua New Guinea,2013,0.1,21,1.51
+Papua New Guinea,2014,0.1,22,1.51
+Papua New Guinea,2015,0,23,1.2
+Papua New Guinea,2016,0,24,1.2
+Papua New Guinea,2017,0.1,25,1.51
+Papua New Guinea,2018,0.1,26,1.51
+Papua New Guinea,2019,0.1,27,1.51
+Papua New Guinea,2020,0.1,28,1.51
+Papua New Guinea,2021,0.1,29,1.51
+Papua New Guinea,2022,0.2,30,1.8199999999999998
+Papua New Guinea,2023,0.1,31,1.51
+Samoa,1993,0,1,1.2
+Samoa,1994,0,2,1.2
+Samoa,1995,0,3,1.2
+Samoa,1996,0.1,4,1.51
+Samoa,1997,0,5,1.2
+Samoa,1998,-0.2,6,0.58
+Samoa,1999,0,7,1.2
+Samoa,2000,0,8,1.2
+Samoa,2001,0,9,1.2
+Samoa,2002,0,10,1.2
+Samoa,2003,0,11,1.2
+Samoa,2004,0.1,12,1.51
+Samoa,2005,0,13,1.2
+Samoa,2006,0.1,14,1.51
+Samoa,2007,0.1,15,1.51
+Samoa,2008,0.1,16,1.51
+Samoa,2009,0,17,1.2
+Samoa,2010,0,18,1.2
+Samoa,2011,0.1,19,1.51
+Samoa,2012,0.1,20,1.51
+Samoa,2013,0,21,1.2
+Samoa,2014,0,22,1.2
+Samoa,2015,0.1,23,1.51
+Samoa,2016,0,24,1.2
+Samoa,2017,0.1,25,1.51
+Samoa,2018,0.1,26,1.51
+Samoa,2019,0.1,27,1.51
+Samoa,2020,0.1,28,1.51
+Samoa,2021,0.2,29,1.8199999999999998
+Samoa,2022,0.1,30,1.51
+Samoa,2023,0.1,31,1.51
+Solomon Islands,1993,-0.1,1,0.8899999999999999
+Solomon Islands,1994,0,2,1.2
+Solomon Islands,1995,0,3,1.2
+Solomon Islands,1996,0.1,4,1.51
+Solomon Islands,1997,0,5,1.2
+Solomon Islands,1998,-0.1,6,0.8899999999999999
+Solomon Islands,1999,0,7,1.2
+Solomon Islands,2000,0.1,8,1.51
+Solomon Islands,2001,0.1,9,1.51
+Solomon Islands,2002,0,10,1.2
+Solomon Islands,2003,0,11,1.2
+Solomon Islands,2004,0,12,1.2
+Solomon Islands,2005,0,13,1.2
+Solomon Islands,2006,0,14,1.2
+Solomon Islands,2007,0.1,15,1.51
+Solomon Islands,2008,0.1,16,1.51
+Solomon Islands,2009,0.1,17,1.51
+Solomon Islands,2010,0,18,1.2
+Solomon Islands,2011,0.1,19,1.51
+Solomon Islands,2012,0.1,20,1.51
+Solomon Islands,2013,0.1,21,1.51
+Solomon Islands,2014,0.1,22,1.51
+Solomon Islands,2015,0,23,1.2
+Solomon Islands,2016,0,24,1.2
+Solomon Islands,2017,0.1,25,1.51
+Solomon Islands,2018,0.1,26,1.51
+Solomon Islands,2019,0.1,27,1.51
+Solomon Islands,2020,0.1,28,1.51
+Solomon Islands,2021,0.2,29,1.8199999999999998
+Solomon Islands,2022,0.2,30,1.8199999999999998
+Solomon Islands,2023,0.1,31,1.51
+Tokelau,1993,0,1,1.2
+Tokelau,1994,0,2,1.2
+Tokelau,1995,0.1,3,1.51
+Tokelau,1996,0,4,1.2
+Tokelau,1997,0,5,1.2
+Tokelau,1998,-0.1,6,0.8899999999999999
+Tokelau,1999,0,7,1.2
+Tokelau,2000,0,8,1.2
+Tokelau,2001,0,9,1.2
+Tokelau,2002,0.1,10,1.51
+Tokelau,2003,0.1,11,1.51
+Tokelau,2004,0.1,12,1.51
+Tokelau,2005,0.1,13,1.51
+Tokelau,2006,0,14,1.2
+Tokelau,2007,0.1,15,1.51
+Tokelau,2008,0,16,1.2
+Tokelau,2009,0,17,1.2
+Tokelau,2010,0,18,1.2
+Tokelau,2011,0,19,1.2
+Tokelau,2012,0,20,1.2
+Tokelau,2013,0.1,21,1.51
+Tokelau,2014,0.1,22,1.51
+Tokelau,2015,0.1,23,1.51
+Tokelau,2016,0,24,1.2
+Tokelau,2017,0.1,25,1.51
+Tokelau,2018,0.1,26,1.51
+Tokelau,2019,0.1,27,1.51
+Tokelau,2020,0.1,28,1.51
+Tokelau,2021,0.1,29,1.51
+Tokelau,2022,0.1,30,1.51
+Tokelau,2023,0.1,31,1.51
+Tonga,1993,0,1,1.2
+Tonga,1994,0,2,1.2
+Tonga,1995,0,3,1.2
+Tonga,1996,0,4,1.2
+Tonga,1997,0,5,1.2
+Tonga,1998,0,6,1.2
+Tonga,1999,0,7,1.2
+Tonga,2000,0.1,8,1.51
+Tonga,2001,0,9,1.2
+Tonga,2002,0.1,10,1.51
+Tonga,2003,0,11,1.2
+Tonga,2004,0,12,1.2
+Tonga,2005,0,13,1.2
+Tonga,2006,0,14,1.2
+Tonga,2007,0.1,15,1.51
+Tonga,2008,0.1,16,1.51
+Tonga,2009,0.1,17,1.51
+Tonga,2010,0,18,1.2
+Tonga,2011,0.1,19,1.51
+Tonga,2012,0.1,20,1.51
+Tonga,2013,0.1,21,1.51
+Tonga,2014,0.1,22,1.51
+Tonga,2015,0,23,1.2
+Tonga,2016,0.1,24,1.51
+Tonga,2017,0.1,25,1.51
+Tonga,2018,0.1,26,1.51
+Tonga,2019,0.1,27,1.51
+Tonga,2020,0.1,28,1.51
+Tonga,2021,0.1,29,1.51
+Tonga,2022,0.1,30,1.51
+Tonga,2023,0.1,31,1.51
+Tuvalu,1993,0,1,1.2
+Tuvalu,1994,0,2,1.2
+Tuvalu,1995,0,3,1.2
+Tuvalu,1996,0,4,1.2
+Tuvalu,1997,0,5,1.2
+Tuvalu,1998,-0.2,6,0.58
+Tuvalu,1999,0,7,1.2
+Tuvalu,2000,0,8,1.2
+Tuvalu,2001,0,9,1.2
+Tuvalu,2002,0.1,10,1.51
+Tuvalu,2003,0,11,1.2
+Tuvalu,2004,0.1,12,1.51
+Tuvalu,2005,0.1,13,1.51
+Tuvalu,2006,0.1,14,1.51
+Tuvalu,2007,0.1,15,1.51
+Tuvalu,2008,0.1,16,1.51
+Tuvalu,2009,0,17,1.2
+Tuvalu,2010,0,18,1.2
+Tuvalu,2011,0.1,19,1.51
+Tuvalu,2012,0,20,1.2
+Tuvalu,2013,0.1,21,1.51
+Tuvalu,2014,0.1,22,1.51
+Tuvalu,2015,0.1,23,1.51
+Tuvalu,2016,0,24,1.2
+Tuvalu,2017,0.1,25,1.51
+Tuvalu,2018,0.1,26,1.51
+Tuvalu,2019,0.1,27,1.51
+Tuvalu,2020,0.1,28,1.51
+Tuvalu,2021,0.1,29,1.51
+Tuvalu,2022,0.1,30,1.51
+Tuvalu,2023,0.1,31,1.51
+Vanuatu,1993,0,1,1.2
+Vanuatu,1994,0,2,1.2
+Vanuatu,1995,0,3,1.2
+Vanuatu,1996,0,4,1.2
+Vanuatu,1997,0,5,1.2
+Vanuatu,1998,0,6,1.2
+Vanuatu,1999,0,7,1.2
+Vanuatu,2000,0,8,1.2
+Vanuatu,2001,0.1,9,1.51
+Vanuatu,2002,0,10,1.2
+Vanuatu,2003,0,11,1.2
+Vanuatu,2004,0,12,1.2
+Vanuatu,2005,0,13,1.2
+Vanuatu,2006,0,14,1.2
+Vanuatu,2007,0,15,1.2
+Vanuatu,2008,0.1,16,1.51
+Vanuatu,2009,0.1,17,1.51
+Vanuatu,2010,0,18,1.2
+Vanuatu,2011,0.1,19,1.51
+Vanuatu,2012,0.1,20,1.51
+Vanuatu,2013,0,21,1.2
+Vanuatu,2014,0,22,1.2
+Vanuatu,2015,0,23,1.2
+Vanuatu,2016,0,24,1.2
+Vanuatu,2017,0.1,25,1.51
+Vanuatu,2018,0.1,26,1.51
+Vanuatu,2019,0.1,27,1.51
+Vanuatu,2020,0.1,28,1.51
+Vanuatu,2021,0.1,29,1.51
+Vanuatu,2022,0.2,30,1.8199999999999998
+Vanuatu,2023,0.2,31,1.8199999999999998
+Wallis and Futuna,1993,0,1,1.2
+Wallis and Futuna,1994,0,2,1.2
+Wallis and Futuna,1995,0,3,1.2
+Wallis and Futuna,1996,0.1,4,1.51
+Wallis and Futuna,1997,0,5,1.2
+Wallis and Futuna,1998,-0.2,6,0.58
+Wallis and Futuna,1999,0,7,1.2
+Wallis and Futuna,2000,0,8,1.2
+Wallis and Futuna,2001,0.1,9,1.51
+Wallis and Futuna,2002,0,10,1.2
+Wallis and Futuna,2003,0,11,1.2
+Wallis and Futuna,2004,0,12,1.2
+Wallis and Futuna,2005,0,13,1.2
+Wallis and Futuna,2006,0.1,14,1.51
+Wallis and Futuna,2007,0.1,15,1.51
+Wallis and Futuna,2008,0.1,16,1.51
+Wallis and Futuna,2009,0.1,17,1.51
+Wallis and Futuna,2010,0,18,1.2
+Wallis and Futuna,2011,0.1,19,1.51
+Wallis and Futuna,2012,0.1,20,1.51
+Wallis and Futuna,2013,0,21,1.2
+Wallis and Futuna,2014,0,22,1.2
+Wallis and Futuna,2015,0,23,1.2
+Wallis and Futuna,2016,0,24,1.2
+Wallis and Futuna,2017,0.1,25,1.51
+Wallis and Futuna,2018,0.1,26,1.51
+Wallis and Futuna,2019,0.1,27,1.51
+Wallis and Futuna,2020,0.1,28,1.51
+Wallis and Futuna,2021,0.2,29,1.8199999999999998
+Wallis and Futuna,2022,0.1,30,1.51
+Wallis and Futuna,2023,0.1,31,1.51

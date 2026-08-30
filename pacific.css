@@ -1,0 +1,666 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+/* =========================================================
+   01. CONFIGURAÇÕES GERAIS
+   ========================================================= */
+
+body {
+  background-color: #404044 !important;
+  font-family: "Rubik", sans-serif !important;
+  color: #effae6;
+}
+
+
+/* =========================================================
+   02. TIPOGRAFIA
+   ========================================================= */
+
+.cr-section h1,
+.cr-section h2,
+.cr-section h3 {
+  font-family: "Rubik", sans-serif !important;
+}
+
+.cr-section h1 {
+  font-weight: 600 !important;
+  font-size: 3em;
+  color: #82b3ae !important;
+  line-height: 1.05;
+}
+
+.cr-section h2 {
+  font-weight: 500 !important;
+  color: #effae6 !important;
+}
+
+.cr-section h3 {
+  color: #effae6 !important;
+}
+
+.cr-section p {
+  margin-bottom: 1.4em;
+  line-height: 1.5;
+}
+
+
+/* =========================================================
+   03. LAYOUT DO CLOSEREAD
+   ========================================================= */
+
+.cr-section .sticky-col {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.cr-section .narrative-col {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+
+/* =========================================================
+   04. IMAGENS E LEGENDAS
+   ========================================================= */
+
+.cr-section .sticky-col img,
+.img-fluid {
+  display: block;
+  max-height: 900px !important;
+  max-width: 100% !important;
+  width: auto !important;
+  height: auto !important;
+  object-fit: contain;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.chart-legend {
+  width: 70% !important;
+  max-width: 800px !important;
+  height: auto !important;
+}
+
+
+/* =========================================================
+   05. POSIÇÃO DOS GRÁFICOS CIRCULARES ESTÁTICOS
+   ========================================================= */
+
+#cr-sst-1940 img,
+#cr-sst-1960 img,
+#cr-sst-1980 img,
+#cr-sst-2000 img,
+#cr-sst-2020 img,
+#cr-sl-2000 img,
+#cr-sl-2008 img,
+#cr-sl-2015 img,
+#cr-sl-2023 img {
+  transform: translateY(-70px);
+}
+
+
+/* =========================================================
+   06. GRÁFICOS D3 — ESTRUTURA COMPARTILHADA
+   ========================================================= */
+
+#cr-sst-d3,
+#cr-sl-d3,
+#cr-co2-d3 {
+  width: 100%;
+}
+
+#sst-chart,
+#sea-level-chart {
+  width: 100%;
+  max-width: 950px;
+  margin: 0 auto;
+}
+
+#co2-chart {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+#sst-chart svg,
+#sea-level-chart svg,
+#co2-chart svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  overflow: visible;
+}
+
+
+/* =========================================================
+   07. MINI-GRÁFICO SST — BALANÇO DE ANOMALIAS
+   ========================================================= */
+
+.sst-side-chart {
+  width: 100%;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.sst-balance-chart {
+  width: 100%;
+  max-width: 500px;
+  margin-left: 0;
+  margin-right: auto;
+}
+
+.sst-balance-chart svg {
+  display: block;
+  width: 130%;
+  height: auto;
+  overflow: visible;
+}
+
+
+/* Compatibilidade com a estrutura anterior por ID.
+   Pode ser removida futuramente se #sst-balance-chart não existir mais no HTML. */
+
+#sst-balance-chart {
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+#sst-balance-chart svg {
+  display: block;
+  width: 130%;
+  height: auto;
+  overflow: visible;
+}
+
+
+/* Bloco antigo para legenda + mini-gráfico persistentes.
+   Mantido para preservar a configuração caso ainda seja reutilizado. */
+
+.sst-left-fixed {
+  width: 100%;
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.sst-left-fixed .chart-legend {
+  display: block;
+  width: 60% !important;
+  max-width: 320px !important;
+  height: auto !important;
+  margin-left: 0 !important;
+  margin-right: auto !important;
+  margin-bottom: 1rem;
+}
+
+
+/* =========================================================
+   08. MINI-GRÁFICO SEA LEVEL — BALANÇO DE ANOMALIAS
+   ========================================================= */
+
+.sea-level-side-chart {
+  width: 100%;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.sea-level-balance-chart {
+  width: 100%;
+  max-width: 620px;
+  margin-left: 0;
+  margin-right: auto;
+}
+
+.sea-level-balance-chart svg {
+  display: block;
+  width: 130%;
+  height: auto;
+  overflow: visible;
+}
+
+
+/* =========================================================
+   09. TOOLTIPS — ESTILO COMPARTILHADO
+   ========================================================= */
+
+.sst-tooltip,
+.sl-tooltip,
+.co2-tooltip,
+.sst-balance-tooltip,
+.sea-level-balance-tooltip {
+  padding: 12px 14px;
+  background: #2f2f33;
+  border: 1px solid #615c5c;
+  border-radius: 7px;
+  color: #effae6;
+  font-family: "Rubik", sans-serif;
+  font-size: 14px;
+  z-index: 9999;
+}
+
+.sst-tooltip {
+  min-width: 160px;
+}
+
+.sl-tooltip {
+  min-width: 170px;
+}
+
+.co2-tooltip {
+  min-width: 220px;
+}
+
+.sst-balance-tooltip,
+.sea-level-balance-tooltip {
+  min-width: 210px;
+  max-width: 300px;
+}
+
+
+/* Conteúdo interno compartilhado dos tooltips */
+
+.tooltip-territory {
+  color: #82b3ae;
+  font-weight: 600;
+  font-size: 15px;
+  margin-bottom: 8px;
+}
+
+.tooltip-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin-top: 3px;
+}
+
+.tooltip-row span {
+  opacity: 0.75;
+}
+
+.tooltip-row strong {
+  font-weight: 500;
+}
+
+.tooltip-territories {
+  margin-top: 10px;
+  padding-top: 8px;
+  border-top: 1px solid #615c5c;
+}
+
+.tooltip-territories > span {
+  opacity: 0.7;
+  font-size: 12px;
+}
+
+.tooltip-territory-list {
+  margin-top: 5px;
+  font-size: 13px;
+  line-height: 1.4;
+}
+
+.tooltip-territory-list div {
+  white-space: nowrap;
+}
+
+
+/* =========================================================
+   10. CONTROLES DE TESTE — CO2
+   ========================================================= */
+
+.co2-test-buttons {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.co2-test-buttons button {
+  margin: 0 5px;
+  padding: 8px 14px;
+  cursor: pointer;
+}
+
+
+/* =========================================================
+   11. PÁGINA FINAL
+   ========================================================= */
+
+.final-page {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 100px 40px 120px 40px;
+  color: #effae6;
+  font-family: "Rubik", sans-serif;
+}
+
+.final-page h1 {
+  font-family: "Rubik", sans-serif;
+  font-size: 2em;
+  font-weight: 600;
+  color: #82b3ae;
+  margin-bottom: 1.2em;
+}
+
+.final-page h2 {
+  font-family: "Rubik", sans-serif;
+  font-size: 1.3em;
+  font-weight: 500;
+  color: #82b3ae;
+  margin-top: 2.5em;
+  margin-bottom: 1em;
+}
+
+.final-page p {
+  line-height: 1.65;
+  margin-bottom: 1.2em;
+  font-size: 1em;
+}
+
+
+/* =========================================================
+   12. LINKS DE PERFIL
+   ========================================================= */
+
+.profile-links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.profile-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  margin: 0 !important;
+  padding: 0 !important;
+  color: #effae6 !important;
+  text-decoration: none !important;
+  font-family: "Rubik", sans-serif;
+  font-size: 1.05em;
+  line-height: 1.2;
+  transition: opacity 0.2s ease;
+}
+
+.profile-link:hover {
+  opacity: 0.65;
+}
+
+.profile-link img {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+
+/* =========================================================
+   13. RESPONSIVIDADE — DESKTOP GRANDE
+   1400px OU MAIS
+   ========================================================= */
+
+@media (min-width: 1400px) {
+
+  .cr-section h1 {
+    font-size: 3em;
+  }
+
+  .cr-section h2 {
+    font-size: 2em;
+  }
+
+  .cr-section p {
+    font-size: 1.05em;
+    line-height: 1.55;
+  }
+
+  .cr-section .sticky-col img,
+  .img-fluid {
+    max-height: 900px !important;
+    max-width: 100% !important;
+  }
+
+}
+
+
+/* =========================================================
+   14. RESPONSIVIDADE — NOTEBOOK
+   1025px — 1399px
+   ========================================================= */
+
+@media (min-width: 1025px) and (max-width: 1399px) {
+
+  .cr-section h1 {
+    font-size: 2.6em;
+  }
+
+  .cr-section h2 {
+    font-size: 1.7em;
+  }
+
+  .cr-section p {
+    font-size: 0.98em;
+    line-height: 1.5;
+  }
+
+  .cr-section .sticky-col img,
+  .img-fluid {
+    max-height: 1200px !important;
+    max-width: 100% !important;
+  }
+
+  .cr-section .sticky-col {
+    padding-left: 6px;
+    padding-right: 6px;
+  }
+
+  .cr-section .narrative-col {
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+  }
+
+  #cr-sst-1940 img,
+  #cr-sst-1960 img,
+  #cr-sst-1980 img,
+  #cr-sst-2000 img,
+  #cr-sst-2020 img,
+  #cr-sl-2000 img,
+  #cr-sl-2008 img,
+  #cr-sl-2015 img,
+  #cr-sl-2023 img {
+    transform: translateY(0);
+  }
+
+}
+
+
+/* =========================================================
+   15. RESPONSIVIDADE — TABLET
+   769px — 1024px
+   ========================================================= */
+
+@media (min-width: 769px) and (max-width: 1024px) {
+
+  .cr-section h1 {
+    font-size: 2.2em;
+  }
+
+  .cr-section h2 {
+    font-size: 1.55em;
+  }
+
+  .cr-section p {
+    font-size: 0.95em;
+    line-height: 1.5;
+    margin-bottom: 1.25em;
+  }
+
+  .cr-section .sticky-col img,
+  .img-fluid {
+    max-height: 780px !important;
+    max-width: 100% !important;
+  }
+
+  .cr-section .sticky-col {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .cr-section .narrative-col {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+
+  #cr-sst-1940 img,
+  #cr-sst-1960 img,
+  #cr-sst-1980 img,
+  #cr-sst-2000 img,
+  #cr-sst-2020 img,
+  #cr-sl-2000 img,
+  #cr-sl-2008 img,
+  #cr-sl-2015 img,
+  #cr-sl-2023 img {
+    transform: translateY(-40px);
+  }
+
+}
+
+
+/* =========================================================
+   16. RESPONSIVIDADE — CELULAR
+   ATÉ 768px
+   ========================================================= */
+
+@media (max-width: 768px) {
+
+  .cr-section h1 {
+    font-size: 2em;
+    line-height: 1.08;
+  }
+
+  .cr-section h2 {
+    font-size: 1.4em;
+    line-height: 1.15;
+  }
+
+  .cr-section p {
+    font-size: 1em;
+    line-height: 1.45;
+    margin-bottom: 1.2em;
+  }
+
+  .cr-section .sticky-col img,
+  .img-fluid {
+    max-height: 650px !important;
+    max-width: 100% !important;
+    width: auto !important;
+    height: auto !important;
+  }
+
+  .cr-section .sticky-col {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .cr-section .narrative-col {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
+  #cr-sst-1940 img,
+  #cr-sst-1960 img,
+  #cr-sst-1980 img,
+  #cr-sst-2000 img,
+  #cr-sst-2020 img,
+  #cr-sl-2000 img,
+  #cr-sl-2008 img,
+  #cr-sl-2015 img,
+  #cr-sl-2023 img {
+    transform: translateY(-15px);
+  }
+
+  .final-page {
+    padding: 60px 25px 80px 25px;
+  }
+
+  .final-page h1 {
+    font-size: 2em;
+  }
+
+  .final-page h2 {
+    font-size: 1.4em;
+  }
+
+  .profile-links {
+    flex-direction: column;
+    gap: 2px;
+  }
+
+}
+
+
+/* =========================================================
+   17. RESPONSIVIDADE — CELULAR PEQUENO
+   ATÉ 480px
+   ========================================================= */
+
+@media (max-width: 480px) {
+
+  .cr-section h1 {
+    font-size: 1.75em;
+  }
+
+  .cr-section h2 {
+    font-size: 1.3em;
+  }
+
+  .cr-section p {
+    font-size: 0.95em;
+    line-height: 1.45;
+  }
+
+  .cr-section .sticky-col img,
+  .img-fluid {
+    max-height: 520px !important;
+    max-width: 100% !important;
+  }
+
+  .cr-section .narrative-col {
+    padding-left: 0.35rem;
+    padding-right: 0.35rem;
+  }
+
+  #cr-sst-1940 img,
+  #cr-sst-1960 img,
+  #cr-sst-1980 img,
+  #cr-sst-2000 img,
+  #cr-sst-2020 img,
+  #cr-sl-2000 img,
+  #cr-sl-2008 img,
+  #cr-sl-2015 img,
+  #cr-sl-2023 img {
+    transform: translateY(0);
+  }
+
+}
+
+
+/* =========================================================
+   18. RESPONSIVIDADE — PÁGINA FINAL / TABLET
+   ATÉ 1024px
+   ========================================================= */
+
+@media (max-width: 1024px) {
+
+  .final-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 100px 20px 120px 20px;
+  }
+
+  .final-page h1 {
+    font-size: 2.4em;
+  }
+
+}

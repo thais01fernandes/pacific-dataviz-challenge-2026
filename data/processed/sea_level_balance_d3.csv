@@ -1,0 +1,16 @@
+year,direction,count,territories
+1993,negative,4,"Micronesia, Federated State of|Palau|Papua New Guinea|Solomon Islands"
+1993,zero,17,American Samoa|Cook Islands|Fiji|French Polynesia|Guam|Kiribati|Marshall Islands|Nauru|New Caledonia|Niue|Northern Mariana Islands|Samoa|Tokelau|Tonga|Tuvalu|Vanuatu|Wallis and Futuna
+1993,positive,0,
+2000,negative,0,
+2000,zero,14,American Samoa|Cook Islands|French Polynesia|Kiribati|Marshall Islands|Nauru|New Caledonia|Niue|Northern Mariana Islands|Samoa|Tokelau|Tuvalu|Vanuatu|Wallis and Futuna
+2000,positive,7,"Fiji|Guam|Micronesia, Federated State of|Palau|Papua New Guinea|Solomon Islands|Tonga"
+2008,negative,0,
+2008,zero,6,Cook Islands|French Polynesia|Kiribati|Nauru|New Caledonia|Tokelau
+2008,positive,15,"American Samoa|Fiji|Guam|Marshall Islands|Micronesia, Federated State of|Niue|Northern Mariana Islands|Palau|Papua New Guinea|Samoa|Solomon Islands|Tonga|Tuvalu|Vanuatu|Wallis and Futuna"
+2015,negative,3,"Guam|Micronesia, Federated State of|Palau"
+2015,zero,9,Fiji|Marshall Islands|Niue|Northern Mariana Islands|Papua New Guinea|Solomon Islands|Tonga|Vanuatu|Wallis and Futuna
+2015,positive,9,American Samoa|Cook Islands|French Polynesia|Kiribati|Nauru|New Caledonia|Samoa|Tokelau|Tuvalu
+2023,negative,0,
+2023,zero,0,
+2023,positive,21,"American Samoa|Cook Islands|Fiji|French Polynesia|Guam|Kiribati|Marshall Islands|Micronesia, Federated State of|Nauru|New Caledonia|Niue|Northern Mariana Islands|Palau|Papua New Guinea|Samoa|Solomon Islands|Tokelau|Tonga|Tuvalu|Vanuatu|Wallis and Futuna"

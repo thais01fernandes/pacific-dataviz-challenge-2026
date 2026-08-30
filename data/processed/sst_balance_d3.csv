@@ -1,0 +1,16 @@
+year,direction,count,territories
+1940,negative,14,"American Samoa|Fiji|Guam|Micronesia, Federated State of|New Caledonia|Niue|Northern Mariana Islands|Palau|Papua New Guinea|Samoa|Solomon Islands|Tonga|Vanuatu|Wallis and Futuna"
+1940,zero,4,Cook Islands|French Polynesia|Marshall Islands|Nauru
+1940,positive,3,Kiribati|Tokelau|Tuvalu
+1960,negative,16,"Fiji|French Polynesia|Guam|Kiribati|Micronesia, Federated State of|Nauru|New Caledonia|Palau|Papua New Guinea|Samoa|Solomon Islands|Tokelau|Tonga|Tuvalu|Vanuatu|Wallis and Futuna"
+1960,zero,5,American Samoa|Cook Islands|Marshall Islands|Niue|Northern Mariana Islands
+1960,positive,0,
+1980,negative,9,"Fiji|French Polynesia|Guam|Micronesia, Federated State of|New Caledonia|Palau|Papua New Guinea|Solomon Islands|Vanuatu"
+1980,zero,4,Cook Islands|Niue|Northern Mariana Islands|Tonga
+1980,positive,8,American Samoa|Kiribati|Marshall Islands|Nauru|Samoa|Tokelau|Tuvalu|Wallis and Futuna
+2000,negative,4,Kiribati|Nauru|Tokelau|Tuvalu
+2000,zero,1,New Caledonia
+2000,positive,16,"American Samoa|Cook Islands|Fiji|French Polynesia|Guam|Marshall Islands|Micronesia, Federated State of|Niue|Northern Mariana Islands|Palau|Papua New Guinea|Samoa|Solomon Islands|Tonga|Vanuatu|Wallis and Futuna"
+2020,negative,0,
+2020,zero,0,
+2020,positive,21,"American Samoa|Cook Islands|Fiji|French Polynesia|Guam|Kiribati|Marshall Islands|Micronesia, Federated State of|Nauru|New Caledonia|Niue|Northern Mariana Islands|Palau|Papua New Guinea|Samoa|Solomon Islands|Tokelau|Tonga|Tuvalu|Vanuatu|Wallis and Futuna"
