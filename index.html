@@ -5732,7 +5732,6 @@ font-size: 2.4em;
 }
 
 @media (max-width: 768px) {
-
 .cr-section {
 position: relative;
 isolation: isolate;
@@ -5769,24 +5768,15 @@ margin: 0 auto;
 position: relative;
 z-index: 0;
 }
-#sst-chart svg,
-#sea-level-chart svg,
-#co2-chart svg {
-width: 100%;
-height: auto;
-position: relative;
-z-index: 0;
-}
 
 .cr-section .narrative-col {
 position: relative !important;
 z-index: 20 !important;
-margin-top: -100vh;
+transform: translateY(-100vh);
 padding-left: 1rem !important;
 padding-right: 1rem !important;
 pointer-events: none;
 }
-
 .cr-section .trigger {
 position: relative !important;
 z-index: 30 !important;
@@ -5796,6 +5786,10 @@ flex-direction: column;
 justify-content: center;
 background: transparent !important;
 pointer-events: auto;
+}
+
+.cr-section .trigger:first-child {
+min-height: 110vh;
 }
 
 .cr-section .trigger > * {
@@ -5825,6 +5819,10 @@ margin: 0 auto;
 width: 100% !important;
 height: auto;
 }
+
+.cr-section:has(#cr-sl-d3) {
+margin-bottom: 35vh;
+}
 }</style>
 </head>
 
@@ -5836,8 +5834,8 @@ height: auto;
       <!-- user-provided yaml closeread style options -->
       <style>
 :root {
---cr-section-background-color: #404044;
 --cr-narrative-font-size: 14pt;
+--cr-section-background-color: #404044;
 --cr-narrative-background-color-sidebar: #404044;
 --cr-narrative-text-color-sidebar: #effae6;
 }

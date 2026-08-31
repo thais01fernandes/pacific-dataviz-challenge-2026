@@ -638,16 +638,13 @@ body {
 
 @media (max-width: 768px) {
 
-  /* seção principal */
   .cr-section {
     position: relative;
     isolation: isolate;
   }
 
 
-  /* =====================================================
-     GRÁFICO — CAMADA DE FUNDO
-     ===================================================== */
+  /* GRÁFICO AO FUNDO */
 
   .cr-section .sticky-col {
     position: sticky !important;
@@ -693,27 +690,14 @@ body {
   }
 
 
-  #sst-chart svg,
-  #sea-level-chart svg,
-  #co2-chart svg {
-    width: 100%;
-    height: auto;
-
-    position: relative;
-    z-index: 0;
-  }
-
-
-  /* =====================================================
-     NARRATIVA — CAMADA DA FRENTE
-     ===================================================== */
+  /* NARRATIVA */
 
   .cr-section .narrative-col {
     position: relative !important;
 
     z-index: 20 !important;
 
-    margin-top: -100vh;
+    transform: translateY(-100vh);
 
     padding-left: 1rem !important;
     padding-right: 1rem !important;
@@ -722,7 +706,6 @@ body {
   }
 
 
-  /* cada etapa */
   .cr-section .trigger {
     position: relative !important;
 
@@ -740,9 +723,14 @@ body {
   }
 
 
-  /* =====================================================
-     CAIXAS TRANSPARENTES
-     ===================================================== */
+  /* primeira etapa um pouco mais longa */
+
+  .cr-section .trigger:first-child {
+    min-height: 110vh;
+  }
+
+
+  /* CAIXAS */
 
   .cr-section .trigger > * {
     position: relative;
@@ -760,9 +748,7 @@ body {
   }
 
 
-  /* =====================================================
-     MINI-GRÁFICOS
-     ===================================================== */
+  /* MINI-GRÁFICOS */
 
   .sst-side-chart,
   .sea-level-side-chart {
@@ -786,6 +772,13 @@ body {
   .sea-level-balance-chart svg {
     width: 100% !important;
     height: auto;
+  }
+
+
+  /* espaço entre Sea Level e CO2 */
+
+  .cr-section:has(#cr-sl-d3) {
+    margin-bottom: 35vh;
   }
 
 }
