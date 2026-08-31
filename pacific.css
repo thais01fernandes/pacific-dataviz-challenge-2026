@@ -631,3 +631,130 @@ body {
   }
 
 }
+
+/* =========================================================
+   MOBILE — TEXTO SOBRE O GRÁFICO
+   ========================================================= */
+
+@media (max-width: 768px) {
+
+  /* seção do Closeread */
+  .cr-section {
+    position: relative;
+  }
+
+
+  /* -----------------------------------------
+     GRÁFICO AO FUNDO
+     ----------------------------------------- */
+
+  .cr-section .sticky-col {
+    position: sticky !important;
+
+    top: 0;
+
+    width: 100%;
+    height: 100vh;
+
+    padding: 0 !important;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    z-index: 1;
+  }
+
+
+  /* gráfico ocupa a tela */
+  .cr-section .sticky-col > * {
+    width: 100%;
+  }
+
+
+  #sst-chart,
+  #sea-level-chart,
+  #co2-chart {
+    width: 100%;
+    max-width: none;
+    margin: 0 auto;
+  }
+
+
+  #sst-chart svg,
+  #sea-level-chart svg,
+  #co2-chart svg {
+    width: 100%;
+    height: auto;
+  }
+
+
+  /* -----------------------------------------
+     COLUNA DE TEXTO SOBRE O GRÁFICO
+     ----------------------------------------- */
+
+  .cr-section .narrative-col {
+    position: relative;
+
+    z-index: 2;
+
+    margin-top: -100vh;
+
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+
+
+  /* cada etapa ocupa aproximadamente uma tela */
+  .cr-section .trigger {
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    background: transparent !important;
+  }
+
+
+  /* -----------------------------------------
+     CAIXA TRANSPARENTE DO TEXTO
+     ----------------------------------------- */
+
+  .cr-section .trigger > * {
+    background: rgba(64, 64, 68, 0.78);
+
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+
+    padding: 1rem 1.1rem;
+
+    border-radius: 10px;
+  }
+
+}
+
+
+@media (max-width: 768px) {
+
+  .sst-side-chart,
+  .sea-level-side-chart {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .sst-balance-chart,
+  .sea-level-balance-chart {
+    width: 78%;
+    max-width: 360px;
+    margin: 0 auto;
+  }
+
+  .sst-balance-chart svg,
+  .sea-level-balance-chart svg {
+    width: 100% !important;
+    height: auto;
+  }
+
+}
