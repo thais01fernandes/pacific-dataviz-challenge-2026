@@ -33,8 +33,11 @@ Data availability varies across indicators, so the set of Pacific island countri
 
 ## Tools
 
-Data preparation and analysis: R · tidyverse
-Visualization: D3.js · ggplot2
-Scrollytelling and publishing: Quarto · Closeread
-Deploy: Github pages
+**Data preparation and analysis**: R · tidyverse
+
+**Visualization**: D3.js · ggplot2
+
+**Scrollytelling and publishing**: Quarto · Closeread
+
+**Deploy**: Github pages
 
