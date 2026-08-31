@@ -5747,32 +5747,14 @@ display: flex;
 align-items: center;
 justify-content: center;
 z-index: 0 !important;
-}
-.cr-section .sticky-col > * {
-width: 100%;
-position: relative;
-z-index: 0;
-}
-#cr-sst-d3,
-#cr-sl-d3,
-#cr-co2-d3 {
-position: relative;
-z-index: 0 !important;
-}
-#sst-chart,
-#sea-level-chart,
-#co2-chart {
-width: 100%;
-max-width: none;
-margin: 0 auto;
-position: relative;
-z-index: 0;
-}
 
+margin-bottom: -100vh;
+}
 .cr-section .narrative-col {
 position: relative !important;
 z-index: 20 !important;
-transform: translateY(-100vh);
+
+transform: none !important;
 padding-left: 1rem !important;
 padding-right: 1rem !important;
 pointer-events: none;
@@ -5786,10 +5768,6 @@ flex-direction: column;
 justify-content: center;
 background: transparent !important;
 pointer-events: auto;
-}
-
-.cr-section .trigger:first-child {
-min-height: 110vh;
 }
 
 .cr-section .trigger > * {
@@ -5834,10 +5812,10 @@ margin-bottom: 35vh;
       <!-- user-provided yaml closeread style options -->
       <style>
 :root {
---cr-narrative-font-size: 14pt;
---cr-section-background-color: #404044;
---cr-narrative-background-color-sidebar: #404044;
 --cr-narrative-text-color-sidebar: #effae6;
+--cr-section-background-color: #404044;
+--cr-narrative-font-size: 14pt;
+--cr-narrative-background-color-sidebar: #404044;
 }
 </style>
     
@@ -5887,7 +5865,7 @@ margin-bottom: 35vh;
 <!-- ======================================================= -->
 <div class="cr-section cr-column-screen sidebar-left">
 <div class="narrative-col">
-<div class="trigger new-trigger" data-year="1940" data-focus-on="cr-sst-d3">
+<div class="trigger new-trigger" data-focus-on="cr-sst-d3" data-year="1940">
 <div class="sst-step narrative">
 <p><span class="sst-marker" data-year="1940"></span></p>
 <section id="a-warming-ocean" class="level1">
@@ -5904,7 +5882,7 @@ margin-bottom: 35vh;
 </section>
 </div>
 </div>
-<div class="trigger new-trigger" data-year="1960" data-focus-on="cr-sst-d3">
+<div class="trigger new-trigger" data-focus-on="cr-sst-d3" data-year="1960">
 <div class="sst-step narrative">
 <p><span class="sst-marker" data-year="1960"></span></p>
 <section id="as-the-decades-pass" class="level2">
@@ -5919,7 +5897,7 @@ margin-bottom: 35vh;
 </section>
 </div>
 </div>
-<div class="trigger new-trigger" data-year="1980" data-focus-on="cr-sst-d3">
+<div class="trigger new-trigger" data-focus-on="cr-sst-d3" data-year="1980">
 <div class="sst-step narrative">
 <p><span class="sst-marker" data-year="1980"></span></p>
 <section id="halfway-around-the-clock" class="level2">
@@ -5934,7 +5912,7 @@ margin-bottom: 35vh;
 </section>
 </div>
 </div>
-<div class="trigger new-trigger" data-year="2000" data-focus-on="cr-sst-d3">
+<div class="trigger new-trigger" data-focus-on="cr-sst-d3" data-year="2000">
 <div class="sst-step narrative">
 <p><span class="sst-marker" data-year="2000"></span></p>
 <section id="warming-becomes-harder-to-miss" class="level2">
@@ -5949,7 +5927,7 @@ margin-bottom: 35vh;
 </section>
 </div>
 </div>
-<div class="trigger new-trigger" data-year="2020" data-focus-on="cr-sst-d3">
+<div class="trigger new-trigger" data-focus-on="cr-sst-d3" data-year="2020">
 <div class="sst-step narrative">
 <p><span class="sst-marker" data-year="2020"></span></p>
 <section id="a-century-of-warming" class="level2">

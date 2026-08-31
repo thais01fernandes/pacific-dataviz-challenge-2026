@@ -646,64 +646,42 @@ body {
 
   /* GRÁFICO AO FUNDO */
 
-  .cr-section .sticky-col {
-    position: sticky !important;
-    top: 0;
+.cr-section .sticky-col {
+  position: sticky !important;
+  top: 0;
 
-    width: 100%;
-    height: 100vh;
+  width: 100%;
+  height: 100vh;
 
-    padding: 0 !important;
+  padding: 0 !important;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-    z-index: 0 !important;
-  }
+  z-index: 0 !important;
 
-
-  .cr-section .sticky-col > * {
-    width: 100%;
-    position: relative;
-    z-index: 0;
-  }
-
-
-  #cr-sst-d3,
-  #cr-sl-d3,
-  #cr-co2-d3 {
-    position: relative;
-    z-index: 0 !important;
-  }
+  /*
+   * O gráfico ocupa visualmente 100vh,
+   * mas não empurra a narrativa uma tela para baixo.
+   */
+  margin-bottom: -100vh;
+}
 
 
-  #sst-chart,
-  #sea-level-chart,
-  #co2-chart {
-    width: 100%;
-    max-width: none;
-    margin: 0 auto;
+.cr-section .narrative-col {
+  position: relative !important;
 
-    position: relative;
-    z-index: 0;
-  }
+  z-index: 20 !important;
 
+  /* IMPORTANTE: não usar transform aqui */
+  transform: none !important;
 
-  /* NARRATIVA */
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
 
-  .cr-section .narrative-col {
-    position: relative !important;
-
-    z-index: 20 !important;
-
-    transform: translateY(-100vh);
-
-    padding-left: 1rem !important;
-    padding-right: 1rem !important;
-
-    pointer-events: none;
-  }
+  pointer-events: none;
+}
 
 
   .cr-section .trigger {
@@ -723,11 +701,6 @@ body {
   }
 
 
-  /* primeira etapa um pouco mais longa */
-
-  .cr-section .trigger:first-child {
-    min-height: 110vh;
-  }
 
 
   /* CAIXAS */
