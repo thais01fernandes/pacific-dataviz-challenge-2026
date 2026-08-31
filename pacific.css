@@ -108,12 +108,12 @@ body {
 #cr-sst-d3,
 #cr-sl-d3,
 #cr-co2-d3 {
-  width: 70%;
+  width: 90%;
 }
 
 #sst-chart,
 #sea-level-chart {
-  width: 80%;
+  width: 90%;
   max-width: 950px;
   margin: 0 auto;
 }

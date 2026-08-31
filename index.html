@@ -5343,11 +5343,11 @@ transform: translateY(-60px);
 #cr-sst-d3,
 #cr-sl-d3,
 #cr-co2-d3 {
-width: 70%;
+width: 90%;
 }
 #sst-chart,
 #sea-level-chart {
-width: 80%;
+width: 90%;
 max-width: 950px;
 margin: 0 auto;
 }
@@ -5476,16 +5476,6 @@ line-height: 1.4;
 }
 .tooltip-territory-list div {
 white-space: nowrap;
-}
-
-.co2-test-buttons {
-text-align: center;
-margin-bottom: 20px;
-}
-.co2-test-buttons button {
-margin: 0 5px;
-padding: 8px 14px;
-cursor: pointer;
 }
 
 .final-page {
@@ -5749,10 +5739,10 @@ font-size: 2.4em;
       <!-- user-provided yaml closeread style options -->
       <style>
 :root {
+--cr-narrative-background-color-sidebar: #404044;
 --cr-section-background-color: #404044;
 --cr-narrative-text-color-sidebar: #effae6;
 --cr-narrative-font-size: 14pt;
---cr-narrative-background-color-sidebar: #404044;
 }
 </style>
     
@@ -5802,7 +5792,7 @@ font-size: 2.4em;
 <!-- ======================================================= -->
 <div class="cr-section cr-column-screen sidebar-left">
 <div class="narrative-col">
-<div class="trigger new-trigger" data-year="1940" data-focus-on="cr-sst-d3">
+<div class="trigger new-trigger" data-focus-on="cr-sst-d3" data-year="1940">
 <div class="sst-step narrative">
 <p><span class="sst-marker" data-year="1940"></span></p>
 <section id="a-warming-ocean" class="level1">
@@ -5819,7 +5809,7 @@ font-size: 2.4em;
 </section>
 </div>
 </div>
-<div class="trigger new-trigger" data-year="1960" data-focus-on="cr-sst-d3">
+<div class="trigger new-trigger" data-focus-on="cr-sst-d3" data-year="1960">
 <div class="sst-step narrative">
 <p><span class="sst-marker" data-year="1960"></span></p>
 <section id="as-the-decades-pass" class="level2">
@@ -5834,7 +5824,7 @@ font-size: 2.4em;
 </section>
 </div>
 </div>
-<div class="trigger new-trigger" data-year="1980" data-focus-on="cr-sst-d3">
+<div class="trigger new-trigger" data-focus-on="cr-sst-d3" data-year="1980">
 <div class="sst-step narrative">
 <p><span class="sst-marker" data-year="1980"></span></p>
 <section id="halfway-around-the-clock" class="level2">
@@ -5849,7 +5839,7 @@ font-size: 2.4em;
 </section>
 </div>
 </div>
-<div class="trigger new-trigger" data-year="2000" data-focus-on="cr-sst-d3">
+<div class="trigger new-trigger" data-focus-on="cr-sst-d3" data-year="2000">
 <div class="sst-step narrative">
 <p><span class="sst-marker" data-year="2000"></span></p>
 <section id="warming-becomes-harder-to-miss" class="level2">
@@ -5864,7 +5854,7 @@ font-size: 2.4em;
 </section>
 </div>
 </div>
-<div class="trigger new-trigger" data-year="2020" data-focus-on="cr-sst-d3">
+<div class="trigger new-trigger" data-focus-on="cr-sst-d3" data-year="2020">
 <div class="sst-step narrative">
 <p><span class="sst-marker" data-year="2020"></span></p>
 <section id="a-century-of-warming" class="level2">
