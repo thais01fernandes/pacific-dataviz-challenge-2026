@@ -98,7 +98,7 @@ body {
 #cr-sl-2008 img,
 #cr-sl-2015 img,
 #cr-sl-2023 img {
-  transform: translateY(-60px);
+  transform: translateY(-40px);
 }
 
 
@@ -109,12 +109,12 @@ body {
 #cr-sst-d3,
 #cr-sl-d3,
 #cr-co2-d3 {
-  width: 90%;
+  width: 87%;
 }
 
 #sst-chart,
 #sea-level-chart {
-  width: 90%;
+  width: 87%;
   max-width: 950px;
   margin: 0 auto;
 }
@@ -633,10 +633,16 @@ body {
 }
 
 /* =========================================================
-   MOBILE — TEXTO SOBRE O GRÁFICO
+   MOBILE — SCROLLYTELLING
+   TEXTO SOBRE OS GRÁFICOS
    ========================================================= */
 
 @media (max-width: 768px) {
+
+
+  /* =====================================================
+     1. ESTRUTURA GERAL
+     ===================================================== */
 
   .cr-section {
     position: relative;
@@ -644,45 +650,131 @@ body {
   }
 
 
-  /* GRÁFICO AO FUNDO */
+  /* =====================================================
+     2. GRÁFICO STICKY AO FUNDO
+     ===================================================== */
 
-.cr-section .sticky-col {
-  position: sticky !important;
-  top: 0;
+  .cr-section .sticky-col {
+    position: sticky !important;
+    top: 0;
 
-  width: 100%;
-  height: 100vh;
+    width: 100%;
+    height: 100vh;
 
-  padding: 0 !important;
+    padding: 0 !important;
 
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
-  z-index: 0 !important;
+    z-index: 0 !important;
 
-  /*
-   * O gráfico ocupa visualmente 100vh,
-   * mas não empurra a narrativa uma tela para baixo.
-   */
-  margin-bottom: -100vh;
-}
+    /*
+     * O gráfico ocupa visualmente uma tela,
+     * mas não empurra a narrativa para baixo.
+     */
+    margin-bottom: -100vh;
+
+    /*
+     * Impede que os gráficos circulares ampliados
+     * criem rolagem horizontal.
+     */
+    overflow: hidden;
+  }
 
 
-.cr-section .narrative-col {
-  position: relative !important;
+  /* =====================================================
+     3. CONTAINERS DOS GRÁFICOS
+     ===================================================== */
 
-  z-index: 20 !important;
+  #cr-sst-d3,
+  #cr-sl-d3,
+  #cr-co2-d3 {
+    position: relative;
 
-  /* IMPORTANTE: não usar transform aqui */
-  transform: none !important;
+    width: 100% !important;
 
-  padding-left: 1rem !important;
-  padding-right: 1rem !important;
+    z-index: 0 !important;
+  }
 
-  pointer-events: none;
-}
 
+  /* =====================================================
+     4. SST + SEA LEVEL
+     GRÁFICOS CIRCULARES MAIORES NO MOBILE
+     ===================================================== */
+
+  #sst-chart,
+  #sea-level-chart {
+    width: 140% !important;
+    max-width: none !important;
+
+    position: relative;
+
+    left: 50%;
+    transform: translateX(-50%);
+
+    margin: 0;
+  }
+
+
+  #sst-chart svg,
+  #sea-level-chart svg {
+    display: block;
+
+    width: 100% !important;
+    height: auto;
+  }
+
+
+  /* =====================================================
+     5. CO2
+     MANTÉM A LARGURA NORMAL
+     ===================================================== */
+
+  #co2-chart {
+    width: 100% !important;
+    max-width: none !important;
+
+    margin: 0 auto;
+
+    position: relative;
+    z-index: 0;
+  }
+
+
+  #co2-chart svg {
+    display: block;
+
+    width: 100% !important;
+    height: auto;
+  }
+
+
+  /* =====================================================
+     6. COLUNA NARRATIVA
+     ===================================================== */
+
+  .cr-section .narrative-col {
+    position: relative !important;
+
+    z-index: 20 !important;
+
+    /*
+     * Não mover a coluna com transform.
+     * Isso evita que o Closeread pule o primeiro step.
+     */
+    transform: none !important;
+
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+
+    pointer-events: none;
+  }
+
+
+  /* =====================================================
+     7. STEPS
+     ===================================================== */
 
   .cr-section .trigger {
     position: relative !important;
@@ -701,9 +793,9 @@ body {
   }
 
 
-
-
-  /* CAIXAS */
+  /* =====================================================
+     8. CAIXAS SEMITRANSPARENTES
+     ===================================================== */
 
   .cr-section .trigger > * {
     position: relative;
@@ -721,7 +813,9 @@ body {
   }
 
 
-  /* MINI-GRÁFICOS */
+  /* =====================================================
+     9. MINI-GRÁFICOS SST + SEA LEVEL
+     ===================================================== */
 
   .sst-side-chart,
   .sea-level-side-chart {
@@ -748,10 +842,34 @@ body {
   }
 
 
-  /* espaço entre Sea Level e CO2 */
+  /* =====================================================
+     10. TRANSIÇÃO SEA LEVEL → CO2
+     ===================================================== */
 
   .cr-section:has(#cr-sl-d3) {
     margin-bottom: 35vh;
+  }
+
+
+  /* =====================================================
+     11. SAÍDA DO CO2 → PÁGINA FINAL
+     ===================================================== */
+
+  .cr-section:has(#cr-co2-d3) {
+    margin-bottom: 100vh;
+  }
+
+
+  /* =====================================================
+     12. PÁGINA FINAL
+     ===================================================== */
+
+  .final-page {
+    position: relative;
+
+    z-index: 50;
+
+    background: #404044;
   }
 
 }
