@@ -24,7 +24,7 @@ body {
 
 .cr-section h1 {
   font-weight: 600 !important;
-  font-size: 2.5em;
+  font-size: 2em;
   color: #82b3ae !important;
   line-height: 1.05;
 }
@@ -36,11 +36,12 @@ body {
 
 .cr-section h3 {
   color: #effae6 !important;
+  font-size: 1.5em;
 }
 
 .cr-section p {
   margin-bottom: 1.4em;
-  line-height: 1.5;
+  line-height: 1.05;
   font-size: 1.5em;
 }
 
@@ -96,7 +97,7 @@ body {
 #cr-sl-2008 img,
 #cr-sl-2015 img,
 #cr-sl-2023 img {
-  transform: translateY(-70px);
+  transform: translateY(-60px);
 }
 
 
@@ -107,12 +108,12 @@ body {
 #cr-sst-d3,
 #cr-sl-d3,
 #cr-co2-d3 {
-  width: 80%;
+  width: 70%;
 }
 
 #sst-chart,
 #sea-level-chart {
-  width: 80%;
+  width: 70%;
   max-width: 950px;
   margin: 0 auto;
 }
