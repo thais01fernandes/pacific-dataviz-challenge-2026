@@ -5735,6 +5735,7 @@ font-size: 2.4em;
 
 .cr-section {
 position: relative;
+isolation: isolate;
 }
 
 .cr-section .sticky-col {
@@ -5746,11 +5747,18 @@ padding: 0 !important;
 display: flex;
 align-items: center;
 justify-content: center;
-z-index: 1;
+z-index: 0 !important;
 }
-
 .cr-section .sticky-col > * {
 width: 100%;
+position: relative;
+z-index: 0;
+}
+#cr-sst-d3,
+#cr-sl-d3,
+#cr-co2-d3 {
+position: relative;
+z-index: 0 !important;
 }
 #sst-chart,
 #sea-level-chart,
@@ -5758,39 +5766,48 @@ width: 100%;
 width: 100%;
 max-width: none;
 margin: 0 auto;
+position: relative;
+z-index: 0;
 }
 #sst-chart svg,
 #sea-level-chart svg,
 #co2-chart svg {
 width: 100%;
 height: auto;
+position: relative;
+z-index: 0;
 }
 
 .cr-section .narrative-col {
-position: relative;
-z-index: 2;
+position: relative !important;
+z-index: 20 !important;
 margin-top: -100vh;
 padding-left: 1rem !important;
 padding-right: 1rem !important;
+pointer-events: none;
 }
 
 .cr-section .trigger {
+position: relative !important;
+z-index: 30 !important;
 min-height: 100vh;
 display: flex;
 flex-direction: column;
 justify-content: center;
 background: transparent !important;
+pointer-events: auto;
 }
 
 .cr-section .trigger > * {
+position: relative;
+z-index: 40 !important;
 background: rgba(64, 64, 68, 0.78);
 backdrop-filter: blur(5px);
 -webkit-backdrop-filter: blur(5px);
 padding: 1rem 1.1rem;
 border-radius: 10px;
 }
-}
-@media (max-width: 768px) {
+
 .sst-side-chart,
 .sea-level-side-chart {
 width: 100%;
@@ -5820,9 +5837,9 @@ height: auto;
       <style>
 :root {
 --cr-section-background-color: #404044;
+--cr-narrative-font-size: 14pt;
 --cr-narrative-background-color-sidebar: #404044;
 --cr-narrative-text-color-sidebar: #effae6;
---cr-narrative-font-size: 14pt;
 }
 </style>
     

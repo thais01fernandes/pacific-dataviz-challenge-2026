@@ -638,19 +638,19 @@ body {
 
 @media (max-width: 768px) {
 
-  /* seção do Closeread */
+  /* seção principal */
   .cr-section {
     position: relative;
+    isolation: isolate;
   }
 
 
-  /* -----------------------------------------
-     GRÁFICO AO FUNDO
-     ----------------------------------------- */
+  /* =====================================================
+     GRÁFICO — CAMADA DE FUNDO
+     ===================================================== */
 
   .cr-section .sticky-col {
     position: sticky !important;
-
     top: 0;
 
     width: 100%;
@@ -662,13 +662,22 @@ body {
     align-items: center;
     justify-content: center;
 
-    z-index: 1;
+    z-index: 0 !important;
   }
 
 
-  /* gráfico ocupa a tela */
   .cr-section .sticky-col > * {
     width: 100%;
+    position: relative;
+    z-index: 0;
+  }
+
+
+  #cr-sst-d3,
+  #cr-sl-d3,
+  #cr-co2-d3 {
+    position: relative;
+    z-index: 0 !important;
   }
 
 
@@ -678,6 +687,9 @@ body {
     width: 100%;
     max-width: none;
     margin: 0 auto;
+
+    position: relative;
+    z-index: 0;
   }
 
 
@@ -686,27 +698,36 @@ body {
   #co2-chart svg {
     width: 100%;
     height: auto;
+
+    position: relative;
+    z-index: 0;
   }
 
 
-  /* -----------------------------------------
-     COLUNA DE TEXTO SOBRE O GRÁFICO
-     ----------------------------------------- */
+  /* =====================================================
+     NARRATIVA — CAMADA DA FRENTE
+     ===================================================== */
 
   .cr-section .narrative-col {
-    position: relative;
+    position: relative !important;
 
-    z-index: 2;
+    z-index: 20 !important;
 
     margin-top: -100vh;
 
     padding-left: 1rem !important;
     padding-right: 1rem !important;
+
+    pointer-events: none;
   }
 
 
-  /* cada etapa ocupa aproximadamente uma tela */
+  /* cada etapa */
   .cr-section .trigger {
+    position: relative !important;
+
+    z-index: 30 !important;
+
     min-height: 100vh;
 
     display: flex;
@@ -714,14 +735,20 @@ body {
     justify-content: center;
 
     background: transparent !important;
+
+    pointer-events: auto;
   }
 
 
-  /* -----------------------------------------
-     CAIXA TRANSPARENTE DO TEXTO
-     ----------------------------------------- */
+  /* =====================================================
+     CAIXAS TRANSPARENTES
+     ===================================================== */
 
   .cr-section .trigger > * {
+    position: relative;
+
+    z-index: 40 !important;
+
     background: rgba(64, 64, 68, 0.78);
 
     backdrop-filter: blur(5px);
@@ -732,24 +759,28 @@ body {
     border-radius: 10px;
   }
 
-}
 
-
-@media (max-width: 768px) {
+  /* =====================================================
+     MINI-GRÁFICOS
+     ===================================================== */
 
   .sst-side-chart,
   .sea-level-side-chart {
     width: 100%;
+
     display: flex;
     justify-content: center;
   }
+
 
   .sst-balance-chart,
   .sea-level-balance-chart {
     width: 78%;
     max-width: 360px;
+
     margin: 0 auto;
   }
+
 
   .sst-balance-chart svg,
   .sea-level-balance-chart svg {
